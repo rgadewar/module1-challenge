@@ -15,12 +15,12 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-.header h1 .seo {
+/* referring with class since only one class in the code */
+.seo {
     color: #d9dcd6;
 }
 
@@ -58,16 +58,15 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
+/* Commented Repetitous code */
+.float-left, .float-right {
     float: left;
     margin-right: 25px;
 }
-
-.float-right {
+/* .float-right {
     float: right;
     margin-left: 25px;
-}
+} */
 
 .content {
     width: 75%;
@@ -85,13 +84,13 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+/* changed class name and consolidated in one */
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+/* .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -99,14 +98,14 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
-
-.benefit-lead h3 {
+} */
+/* Removed class and referred with h3 tag only */
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+/* .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -114,27 +113,26 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
-
-.benefit-lead img {
+} */
+/* Consolidated all images in one for avoinding repetition and refreed by img tag  */
+img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
+/* .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.benefit-cost img {
+} */
+/* .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
-.search-engine-optimization {
+/* Consolidated all divs in one for avoinding repetition and refreed by parent class  */
+.content div{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,42 +141,43 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+/* .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
-.social-media-marketing {
+/* .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
-
-.search-engine-optimization img {
+} */
+/* consolidated all images from content tab in one to avoid repetition and refreed by parent class */
+.content img{
     max-height: 200px;
 }
 
-.online-reputation-management img {
+/* .online-reputation-management img {
     max-height: 200px;
 }
 
 .social-media-marketing img {
     max-height: 200px;
-}
+} */
+/* consolidated all h2 in one to avoid repetition */
+h2{
 
-.search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+/* .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -186,7 +185,7 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 .footer {
     padding: 30px;
